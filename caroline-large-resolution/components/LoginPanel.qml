@@ -6,7 +6,7 @@ Item {
     property string user: userPanel.username
     property string password: passwordField.text
     property int session: sessionPanel.session
-    property double inputHeight: Screen.height * 0.175 * 0.25 * config.Scale
+    property double inputHeight: Screen.height * 0.175 * 0.2 * config.Scale
     property double inputWidth: Screen.width * 0.175 * config.Scale
 
     Column {
